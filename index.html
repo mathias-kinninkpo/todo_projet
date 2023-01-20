@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <article>
+            <div class="card">
+                <div class="text-card">
+                    <h1>To Do List</h1>
+                    <a href="index.html" class="link">
+                    <i class="fas fa-sync fa-2x" id='refresh'></i>
+                    </a>
+                </div>
+                <div class="clock-right">
+                    <span class="tree">3</span>
+                    <div class="clock-left">
+                        <span class="nine">9</span>
+                        <div class="clock-bottom">
+                           <span class="six">6</span>
+                            <div class="clock">
+                                <div class="hour">
+                                    <div class="hr"></div>
+                                </div>
+                                <div class="min">
+                                    <div class="mn"></div>
+                                </div>
+                                <div class="sec">
+                                    <div class="sc"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="date">
+                    <p id="day"></p>
+                </div>
+            </div>
+            <div class="works">
+                 <div class="work">
+                    <p>
+                        <input type="checkbox" class="inp">
+                        <span>laver mes habits</span>
+                    </p>
+                    <img src="icone.png" alt="delete" class="image">
+                </div> 
+                <div class="work">
+                    <p>
+                        <input type="checkbox" class="inp">
+                        <span>do something</span>
+                    </p>
+                    <img src="icone.png" alt="delete" class="image">
+                </div> 
+                <div class="work">
+                    <p>
+                        <input type="checkbox" class="inp">
+                        <span>laver mes choses</span>
+                    </p>
+                    <img src="icone.png" alt="delete" class="image">
+                </div> 
+                <div class="work">
+                    <p>
+                        <input type="checkbox" class="inp">
+                        <span>things</span>
+                    </p>
+                    <img src="icone.png" alt="delete" class="image">
+                </div> 
+               
+            </div>
+            <div class="add">
+                <button type="submit" class="bt" id="do">
+                    <span></span>
+                    <span></span>
+                </button>
+                <input type="text" placeholder="A faire" id="todo">
+            </div>
+           
+        </article>
+    </main>
+    <script src="process.js"></script>
+
+</body>
+</html>
